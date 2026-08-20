@@ -2,7 +2,7 @@
 End-to-end Customer Churn Analysis using Python. Includes data cleaning, EDA, KPI analysis, customer segmentation, and visualizations to identify key churn drivers, high-risk customers, and actionable insights for improving customer retention.
 Customer Churn Analysis — Complete Python Data Analytics Project
 
-#📌 Project Overview
+# 📌 Project Overview
 
 Customer churn is a major business challenge for subscription-based companies. When customers stop using a company's products or services, the company loses recurring revenue and may need to spend additional resources acquiring new customers.
 
@@ -10,7 +10,7 @@ This project analyzes customer data to identify the major factors associated wit
 
 The dataset contains customer demographic information, contract details, internet services, payment methods, tenure, monthly charges, total charges, support tickets, late payments, and churn status.
 
-###Dataset Size:
+### Dataset Size:
 
 Raw Dataset: 2,515 rows and 15 columns
 Final Dataset: 2,500 rows and 20 columns after cleaning and feature engineering
