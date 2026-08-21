@@ -21,20 +21,21 @@ The project aims to help a business understand which customer groups are more li
 
 The main objectives of this project are:
 
-Calculate the overall customer churn rate.
-Identify the total number of customers and churned customers.
-Analyze churn by contract type.
-Identify regions with higher churn rates.
-Analyze the relationship between customer tenure and churn.
-Examine churn patterns across payment methods.
-Analyze churn by internet service type.
-Compare monthly charges between churned and retained customers.
-Analyze whether support tickets are associated with churn.
-Examine the relationship between late payments and churn.
-Segment customers based on their overall value.
-Identify high-value customers who have churned.
-Generate business insights and provide data-driven retention recommendations.
-📂 Project Structure
+•Calculate the overall customer churn rate.
+•Identify the total number of customers and churned customers.
+•Analyze churn by contract type.
+•Identify regions with higher churn rates.
+•Analyze the relationship between customer tenure and churn.
+•Examine churn patterns across payment methods.
+•Analyze churn by internet service type.
+•Compare monthly charges between churned and retained customers.
+•Analyze whether support tickets are associated with churn.
+•Examine the relationship between late payments and churn.
+•Segment customers based on their overall value.
+•Identify high-value customers who have churned.
+•Generate business insights and provide data-driven retention recommendations.
+
+# 📂 Project Structure
 customer-churn-analysis-python/
 │
 ├── customer_churn_data.csv
@@ -46,23 +47,24 @@ customer-churn-analysis-python/
 └── requirements.txt
 Files Description
 
-customer_churn_data.csv
+•customer_churn_data.csv
 Contains the raw customer churn dataset used for the analysis.
 
-Python Customer Churn Analysis Project.ipynb
+•Python Customer Churn Analysis Project.ipynb
 Contains the complete Python data analysis workflow, including data cleaning, feature engineering, EDA, KPI analysis, visualizations, business insights, and recommendations.
-
-README.md
+*Complete Python Notebook Script:*
+**[Customer_Churn_Analysis_Project](Customer_Churn_Analysis_Project)**
+# README.md
 Provides an overview of the project, objectives, technologies, analysis process, key findings, and instructions for running the project.
 
 requirements.txt
 Contains the Python libraries required to run the project.
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 The following technologies and libraries were used in this project:
 
-Programming Language
+### Programming Language
 Python
 Data Analysis
 Pandas
@@ -85,7 +87,8 @@ Customer Segmentation
 KPI Analysis
 Correlation Analysis
 Business Insight Generation
-🔄 Project Workflow
+
+# 🔄 Project Workflow
 
 The project follows the complete data analyst workflow:
 
@@ -112,7 +115,8 @@ Visualization
 Business Insights
        ↓
 Recommendations
-🧹 Data Cleaning
+
+# 🧹 Data Cleaning
 
 Several data cleaning steps were performed to improve data quality.
 
@@ -191,7 +195,8 @@ Customers were divided into three value categories based on total charges:
 Low Value
 Medium Value
 High Value
-🔍 Exploratory Data Analysis (EDA)
+
+# 🔍 Exploratory Data Analysis (EDA)
 
 The project performs exploratory data analysis to understand customer behavior and identify churn patterns.
 
@@ -261,7 +266,8 @@ Churned Customers	538
 Overall Churn Rate	21.52%
 Total Customer Revenue	₹7,221,821
 Average Monthly Charge	₹79.13
-💡 Key Insights
+
+# 💡 Key Insights
 1. Overall Customer Churn Rate
 
 The overall customer churn rate is 21.52%, with 538 out of 2,500 customers identified as churned.
@@ -339,22 +345,23 @@ Even though the high-value segment has a lower churn rate than the low-value seg
 
 These customers should be considered a priority for retention programs.
 
-📈 Visualizations Created
+# 📈 Visualizations Created
 
 The project includes the following visualizations:
 
-Customer Churn Distribution
-Churn Rate by Contract Type
-Churn Rate by Region
-Churn Rate by Payment Method
-Churn Rate by Internet Service
-Churn Rate by Customer Tenure
-Monthly Charges by Churn Status
-Average Support Tickets by Churn Status
-Average Late Payments by Churn Status
-Revenue by Customer Value Segment
-Correlation Matrix Heatmap
-📌 Business Recommendations
+•Customer Churn Distribution
+•Churn Rate by Contract Type
+•Churn Rate by Region
+•Churn Rate by Payment Method
+•Churn Rate by Internet Service
+•Churn Rate by Customer Tenure
+•Monthly Charges by Churn Status
+•Average Support Tickets by Churn Status
+•Average Late Payments by Churn Status
+•Revenue by Customer Value Segment
+•Correlation Matrix Heatmap
+
+# 📌 Business Recommendations
 
 Based on the analysis, the following recommendations can help reduce customer churn:
 
@@ -401,7 +408,8 @@ Since churned customers have higher average monthly charges, the company should 
 
 Analyze Electronic Check and other payment processes for possible billing friction, payment failures, or customer experience problems.
 
-▶️ How to Run the Project
+# ▶️ How to Run the Project
+
 Step 1: Clone the Repository
 git clone <your-github-repository-url>
 Step 2: Navigate to the Project Folder
@@ -434,7 +442,8 @@ Data Import
 → Visualization
 → Business Insights
 → Recommendations
-📦 Requirements
+
+# 📦 Requirements
 
 Create a requirements.txt file with:
 
@@ -447,7 +456,8 @@ jupyter
 Install all dependencies using:
 
 pip install -r requirements.txt
-🚀 Future Improvements
+
+# 🚀 Future Improvements
 
 This project can be further improved in the following ways:
 
@@ -502,7 +512,8 @@ Inconsistent category labels
 Invalid values
 Outliers
 Unexpected missing values
-🧠 Skills Demonstrated
+
+# 🧠 Skills Demonstrated
 
 This project demonstrates the following Data Analyst skills:
 
@@ -526,7 +537,8 @@ Seaborn
 Correlation Analysis
 Business Insight Generation
 Data-Driven Recommendations
-📬 Conclusion
+
+# 📬 Conclusion
 
 This project demonstrates an end-to-end customer churn analysis workflow using Python. The analysis identifies important churn patterns related to contract type, customer tenure, monthly charges, internet service, support activity, payment behavior, and customer value.
 
