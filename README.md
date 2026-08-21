@@ -17,7 +17,7 @@ Final Dataset: 2,500 rows and 20 columns after cleaning and feature engineering
 
 The project aims to help a business understand which customer groups are more likely to churn and identify potential opportunities for improving customer retention.
 
-🎯 Objectives
+# 🎯 Objectives
 
 The main objectives of this project are:
 
