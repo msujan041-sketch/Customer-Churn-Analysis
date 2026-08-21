@@ -53,7 +53,7 @@ Contains the raw customer churn dataset used for the analysis.
 •Python Customer Churn Analysis Project.ipynb
 Contains the complete Python data analysis workflow, including data cleaning, feature engineering, EDA, KPI analysis, visualizations, business insights, and recommendations.
 *Complete Python Notebook Script:*
-**[Customer_Churn_Analysis_Project](Customer_Churn_Analysis_Project)**
+**[Customer_Churn_Analysis_Project](./Customer_Churn_Analysis_Project)**
 # README.md
 Provides an overview of the project, objectives, technologies, analysis process, key findings, and instructions for running the project.
 
